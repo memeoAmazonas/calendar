@@ -1,0 +1,16 @@
+.calendar-container {
+    display: block;
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+}
+
+.title-input {
+    margin-right: 5px;
+}
+.title-input-date {
+    margin-right: 22px;
+}
+
