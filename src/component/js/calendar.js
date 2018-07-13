@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Item from './item';
 import strings from '../customization/strings'
 
 import  '../css/calendar.css';
@@ -39,6 +40,7 @@ class Calendar extends React.PureComponent {
           </div>
         </div>
         <div className="container-result">
+          <Item initDate={this.state.initDate}/>
           <span>{this.state.initDate}</span>
           <br/>
           <span>{this.state.dayRender}</span>
