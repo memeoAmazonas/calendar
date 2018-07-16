@@ -40,12 +40,12 @@ class Calendar extends React.PureComponent {
           </div>
         </div>
         <div className="container-result">
-          <Item initDate={this.state.initDate}/>
           <span>{this.state.initDate}</span>
           <br/>
           <span>{this.state.dayRender}</span>
           <br/>
           <span>{this.state.countryCode}</span>
+          <Item initDate={this.state.initDate} dayRender={this.state.dayRender} />
         </div>
       </div>
     );
