@@ -48,6 +48,7 @@ class Item extends React.PureComponent {
           break;
         default:
           break
+
       }
 
     }
